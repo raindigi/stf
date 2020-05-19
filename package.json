@@ -53,7 +53,7 @@
     "formidable": "^1.2.0",
     "gm": "^1.23.0",
     "hipchatter": "^0.3.1",
-    "http-proxy": "^1.11.2",
+    "http-proxy": "^1.18.1",
     "in-publish": "^2.0.0",
     "jpeg-turbo": "^0.4.0",
     "jws": "^3.1.0",
