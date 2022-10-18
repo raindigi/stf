@@ -64,7 +64,7 @@
     "markdown-serve": "^0.3.2",
     "mime": "^1.3.4",
     "minicap-prebuilt-beta": "^2.4.0",
-    "minimatch": "^3.0.3",
+    "minimatch": "^3.0.5",
     "minitouch-prebuilt-beta": "^1.3.0",
     "my-local-ip": "^1.0.0",
     "openid": "^2.0.1",
