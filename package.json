@@ -30,7 +30,8 @@
   },
   "scripts": {
     "test": "gulp test",
-    "prepublish": "bower install && not-in-install && gulp build || in-install"
+    "prepublish": "yarn run snyk-protect && bower install && not-in-install && gulp build || in-install",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@slack/client": "^3.5.4",
@@ -97,7 +98,8 @@
     "uuid": "^3.0.0",
     "ws": "^3.0.0",
     "yargs": "^6.6.0",
-    "zmq": "^2.14.0"
+    "zmq": "^2.14.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "async": "^2.0.1",
@@ -170,5 +172,6 @@
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/openstf"
-  }
+  },
+  "snyk": true
 }
