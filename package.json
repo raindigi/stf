@@ -33,7 +33,7 @@
     "prepublish": "bower install && not-in-install && gulp build || in-install"
   },
   "dependencies": {
-    "@slack/client": "^3.5.4",
+    "@slack/client": "^5.0.2",
     "adbkit": "^2.11.1",
     "adbkit-apkreader": "^3.1.1",
     "adbkit-monkey": "^1.0.1",
@@ -70,12 +70,12 @@
     "openid": "^2.0.1",
     "passport": "^0.3.2",
     "passport-oauth2": "^1.1.2",
-    "passport-saml": "^0.15.0",
+    "passport-saml": "^3.2.4",
     "please-update-dependencies": "^2.0.0",
     "protobufjs": "^3.8.2",
     "proxy-addr": "^1.0.10",
     "pug": "^2.0.0-beta4",
-    "request": "^2.67.0",
+    "request": "^2.88.2",
     "request-progress": "^2.0.1",
     "rethinkdb": "^2.0.2",
     "semver": "^5.0.1",
