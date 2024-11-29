@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - '@slack/client > lodash':
+        patched: '2020-05-01T06:04:57.717Z'
+    - aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - passport-saml > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - swagger-express-mw > swagger-node-runner > sway > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - swagger-express-mw > swagger-node-runner > sway > json-refs > graphlib > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - express-validator > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - swagger-tools > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - swagger-tools > async > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - swagger-tools > json-refs > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
+    - swagger-tools > json-refs > graphlib > lodash:
+        patched: '2020-05-01T06:04:57.717Z'
